@@ -56,6 +56,15 @@ function ImageSlider() {
                     infinite: true,
                     dots: false
                 }
+            },
+            {
+                breakpoint: 920,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
             }
         ]
     
