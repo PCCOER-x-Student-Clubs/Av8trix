@@ -1,0 +1,96 @@
+.main_wrapper {
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../images/team.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    font-family: bankGothlic;
+}
+
+.main_wrapper h1 {
+    font-size: 52px;
+    position: relative;
+    top: 3rem;
+    color: black;
+    font-family: montserrat;
+
+}
+
+.main_wrapper p {
+    font-size: 22px;
+    position: relative;
+    top: 0rem;
+    color: black;
+}
+
+.img-icons img {
+    width: 40rem;
+    height: 30rem;
+    border-radius: 12px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 50%;
+    left: 22.5%;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.555);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+}
+
+.icons img {
+    width: 5rem;
+    height: 5rem;
+}
+
+@media screen and (max-width:650px) {
+    .main_wrapper {
+        background-size: contain;
+        color: white;
+        height: 380px;
+    }
+
+    .main_wrapper h1,
+    .main_wrapper p {
+        color: black;
+    }
+
+    .main_wrapper h1 {
+        font-size: 30px;
+        margin-bottom: 1.5rem;
+    }
+
+    .main_wrapper p {
+        font-size: 16px;
+    }
+
+    .img-icons img {
+        width: 22.5rem;
+        height: 22rem;
+    }
+
+    .icons {
+        width: 90%;
+        left: 4%;
+        padding: .25rem;
+        top: -5rem;
+    }
+
+    .icons img {
+        width: 2rem;
+        height: 2rem;
+    }
+}

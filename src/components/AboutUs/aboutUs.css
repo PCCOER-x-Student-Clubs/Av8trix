@@ -1,0 +1,109 @@
+.aboutUs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 4rem;
+    font-family: bankGothlic;
+    color: black;
+}
+
+
+.aboutUs h1 {
+    padding-top: 2rem;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.about_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+    align-content: center;
+
+}
+
+.hiddenContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 1rem;
+}
+
+.RightImg img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 12px;
+    animation: aboutInfo 3s ease-in-out forwards;
+
+}
+
+
+@keyframes aboutInfo {
+    0% {
+        position: relative;
+        right: -100%;
+        opacity: 0;
+    }
+
+    100% {
+        position: relative;
+        right: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes dropDown {
+
+    0%,
+    100% {
+        position: relative;
+        top: -3rem;
+    }
+
+    50% {
+        position: relative;
+        top: -3.5rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .aboutUs {
+        text-align: justify;
+        text-justify: newspaper;
+        width: 100%;
+    }
+
+    .about_container,
+    .hiddenContainer {
+        gap: .5rem;
+        width: 95%;
+    }
+
+    .aboutUs h1 {
+        font-size: 22px;
+    }
+
+    .leftInfo h3 {
+        font-size: 18px;
+    }
+
+    .leftInfo p {
+        font-size: 12px;
+    }
+
+    .RightImg img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+}

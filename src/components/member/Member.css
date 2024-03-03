@@ -1,0 +1,29 @@
+.Team_Member {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Team_Member img {
+    width: 240px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:651px) and (max-width:950px) {
+    .Team_Member {
+        width: 200px;
+        height: 290px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .Team_Member {
+        width: 150px;
+        height: 220px;
+    }
+}

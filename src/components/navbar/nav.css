@@ -1,0 +1,93 @@
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    z-index: 999;
+    position: fixed;
+    border-bottom: 2px solid white;
+}
+
+.desktop-links ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: 1rem;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.desktop-links ul li {
+    cursor: pointer;
+    transition: all ease-in-out .25s;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-left: 2rem;
+}
+
+li:hover,
+.hamburgMenu:hover {
+    color: #9d58bb;
+}
+
+.hamburgMenu {
+    display: none;
+    transition: all ease-in-out .25s;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+@keyframes menu {
+    0% {
+        position: relative;
+        top: -50%;
+    }
+
+    50% {
+        position: relative;
+        top: 0%;
+    }
+}
+
+
+@media screen and (max-width:650px) {
+    .nav_wrapper {
+        background-color: black;
+    }
+
+    .desktop-links ul {
+        display: none;
+    }
+
+    .mobile-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all ease-in-out 2s;
+    }
+
+    .mobile-links ul {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        animation: menu 500ms ease-in-out forwards;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+
+
+    .hamburgMenu {
+        color: white;
+        margin-right: 2rem;
+        margin-top: .75rem;
+        font-size: 28px;
+        font-weight: bolder;
+        display: flex;
+    }
+}

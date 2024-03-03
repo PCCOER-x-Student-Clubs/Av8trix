@@ -1,0 +1,14 @@
+.team_wrapper {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.heads {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+}

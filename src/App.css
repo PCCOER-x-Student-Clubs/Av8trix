@@ -1,0 +1,42 @@
+.contactUs {
+    width: 98%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-left: 1rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+}
+
+.contactUs h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.emaPhn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.socialMedia button {
+    background: transparent;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:650px) {
+    .emaPhn {
+        font-size: 14px;
+    }
+
+    .socialMedia button {
+        font-size: 24px;
+    }
+}
