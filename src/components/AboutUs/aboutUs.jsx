@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import img1 from "../../images/aboutUs.jpg";
 import "./aboutUs.css";
 // import { MdKeyboardArrowDown } from "react-icons/md";
@@ -7,11 +7,11 @@ function AboutUs() {
   // let[container, setContainer] = useState(true);
   // let Containerdisplay = container? {display:"none"} : {display:"flex"};
   // let buttonRotate = container ? { transform: "rotateX(0deg)" } : { transform: "rotateX(180deg)" };
-  const aboutRef = useRef("");
+  // const aboutRef = useRef("");
 
   return (
     <>
-      <div className="aboutUs" id="about" ref={aboutRef}>
+      <div className="aboutUs" id="about">
         <h1 color="white">About Us</h1>
         <div className="about_container">
           <div className="leftInfo">
