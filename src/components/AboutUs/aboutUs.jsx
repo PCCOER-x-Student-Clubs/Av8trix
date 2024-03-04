@@ -11,7 +11,7 @@ function AboutUs() {
 
   return (
     <>
-      <div className="aboutUs" id="about">
+      <div className="aboutUs" id="About">
         <h1 color="white">About Us</h1>
         <div className="about_container">
           <div className="leftInfo">
@@ -22,7 +22,7 @@ function AboutUs() {
               a month,but quickly realised how complex it is to achieve flight
               even on a scale plane This started a chain process which led to
               the founding of this club in which we all entered as just an
-              aircraft enthusiast\ people who loved watching airplanes land and
+              aircraft enthusiast people who loved watching airplanes land and
               take off , childern who dreamt of being a pilot once they were old
               enough, and we keep on working to make the best aircrafts.
             </p>{" "}

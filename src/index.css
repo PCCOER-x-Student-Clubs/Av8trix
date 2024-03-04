@@ -8,25 +8,29 @@ body {
 }
 
 @font-face {
+  font-family: Bebas;
+  src: url("../public/BebasNeue-Regular.ttf");
+}
+
+
+@font-face {
+  font-family: Lato;
+  src: url("../public/Lato-Regular.ttf");
+}
+
+@font-face {
   font-family: montserrat;
-  src: url(../public/MontserratAlt1-ExtraLight.ttf);
+  src: url("../public/MontserratAlt1-ExtraLight.ttf");
 }
-
-@font-face {
-  font-family: bankGothlic;
-  src: url(../public/BankGothicLtBTLight.ttf);
-}
-
-@font-face {
-  font-family: gamilia;
-  src: url(../public/GamiliaDemoRegular-d9DL7.ttf);
-}
-
 
 h1,
 h2 {
-  font-family: montserrat;
+  font-family: Bebas;
   font-weight: bolder;
+}
+
+p {
+  font-family: Lato;
 }
 
 @media screen and (max-width:650px) {

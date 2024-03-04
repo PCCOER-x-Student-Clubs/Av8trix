@@ -17,7 +17,7 @@ const images = [slide1, slide2, slide3, slide4, slide5]
 function ImageSlider() {
      const NextArrow = ({onClick}) =>{
          return(
-             <div className="arrow next" onClick={onClick}>
+            <div className="arrow next" onClick={onClick}>
                  <FaRegArrowAltCircleRight />
              </div>
          )
@@ -70,6 +70,7 @@ function ImageSlider() {
     
     }
   return (
+    <div className="event_wrapper">
     <div className='Slidercontainer'>
         <h1>Our Events</h1>
         <Slider {...settings}>
@@ -79,6 +80,7 @@ function ImageSlider() {
                 </div>
             ))}
         </Slider>
+    </div>
     </div>
   
   )

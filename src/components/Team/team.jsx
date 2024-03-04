@@ -12,7 +12,7 @@ import Team5 from "./images/team5.jpg";
 
 function team() {
   return (
-    <div className="team_wrapper">
+    <div className="team_wrapper" id="team">
         <h1>Our Team</h1>
 
         <div className="captain">

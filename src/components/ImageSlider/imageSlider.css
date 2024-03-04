@@ -1,11 +1,20 @@
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
+.event_wrapper {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-bottom: 2rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
 .Slidercontainer {
     width: 90%;
     margin: 1rem auto;
     height: 21rem;
-    color: white;
+    color: black;
     text-align: center;
 }
 

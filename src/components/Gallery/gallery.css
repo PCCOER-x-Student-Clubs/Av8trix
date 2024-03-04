@@ -4,12 +4,10 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    color: black;
+    color: white;
     margin-bottom: 2rem;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    background-color: white;
     padding-bottom: 1rem;
+    background-color: black;
 }
 
 .imgs {

@@ -6,7 +6,8 @@
     align-content: center;
     align-items: center;
     background-color: white;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
     font-family: bankGothlic;
     color: black;
 }
@@ -17,6 +18,10 @@
     margin: 0;
     text-align: center;
     width: 100%;
+}
+
+.aboutUs h3 {
+    font-family: Bebas;
 }
 
 .about_container {
@@ -81,6 +86,9 @@
         text-align: justify;
         text-justify: newspaper;
         width: 100%;
+        text-align: center;
+        position: relative;
+        top: -3rem;
     }
 
     .about_container,
@@ -102,8 +110,7 @@
     }
 
     .RightImg img {
-        width: 10rem;
-        height: 10rem;
+        display: none;
     }
 
 }

@@ -5,6 +5,8 @@
     flex-direction: column;
     border-radius: 10px;
     overflow: hidden;
+    width: 242px;
+    height: 325px;
 }
 
 .Team_Member img {
@@ -12,6 +14,17 @@
     height: 320px;
     object-fit: cover;
     border-radius: 10px;
+    z-index: -1;
+}
+
+.info {
+    position: relative;
+    color: white;
+    width: 240px;
+    height: 320px;
+    background-color: white;
+    z-index: 1;
+    top: -10rem;
 }
 
 @media screen and (min-width:651px) and (max-width:950px) {

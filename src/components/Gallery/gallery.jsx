@@ -10,7 +10,7 @@ import img5 from "./images/img5.jpg"
 
 function gallery() {
   return (
-    <div className='gallery_wrapper'>
+    <div className='gallery_wrapper' id='Gallery'>
         <h1>Our Gallery</h1>
         <div className="imgs">
             <img src={img1} alt="" />

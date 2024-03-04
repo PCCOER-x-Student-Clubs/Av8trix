@@ -9,7 +9,7 @@ import soft3 from "../../images/Soft3.png";
 
 function sponsor() {
   return (
-    <div className='sponsor_wrapper'>
+    <div className='sponsor_wrapper' id='Sponsors'>
         <h1>Our Sponsors</h1>
         <div className="goldsponsor">
         <h3>Gold Sponsors</h3>

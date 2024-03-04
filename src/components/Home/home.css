@@ -39,7 +39,6 @@
 .icons {
     display: flex;
     justify-content: center;
-    gap: 2rem;
     width: 50%;
     left: 22.5%;
     border-radius: 25px;
@@ -49,11 +48,13 @@
     padding-top: .5rem;
     padding-bottom: .5rem;
 
+
 }
 
 .icons img {
     width: 5rem;
     height: 5rem;
+    margin: 1rem;
 }
 
 @media screen and (max-width:650px) {
