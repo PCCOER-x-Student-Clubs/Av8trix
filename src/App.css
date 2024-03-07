@@ -28,6 +28,16 @@
     border: none;
     font-size: 26px;
     cursor: pointer;
+    color: white;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
 }
 
 @media screen and (max-width:650px) {

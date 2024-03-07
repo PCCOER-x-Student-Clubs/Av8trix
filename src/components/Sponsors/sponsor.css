@@ -42,12 +42,12 @@
 
 .goldImg img {
     width: auto;
-    height: 5rem;
+    height: 3rem;
 }
 
 .softImg img {
     width: auto;
-    height: 5rem;
+    height: 3rem;
 }
 
 @media screen and (max-width: 650px) {
@@ -56,13 +56,13 @@
     }
 
     .softImg img {
-        width: 7rem;
+        width: auto;
         height: 3rem;
     }
 
     .goldImg img {
-        height: 5rem;
-        width: 10rem;
+        height: 3rem;
+        width: auto;
     }
 
     .goldsponsor h3,
