@@ -1,97 +1,117 @@
 .main_wrapper {
-    text-align: center;
-    color: white;
-    width: 100vw;
-    height: 100vh;
-    background-image: url('../../images/team.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: center;
-    font-family: bankGothlic;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  font-family: bankGothlic;
+}
+.main_wrapper img {
+  width: min(72rem, 98%);
+  margin: 0 auto;
+  height: 60vh;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 2rem;
 }
 
 .main_wrapper h1 {
-    font-size: 52px;
-    position: relative;
-    top: 3rem;
-    color: black;
-    font-family: montserrat;
-
+  font-family: "Big Shoulders Stencil Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 52px;
+  position: relative;
+  top: 3rem;
+  color: white;
+  letter-spacing: 0.25rem;
+  margin-top: 5rem;
 }
 
 .main_wrapper p {
-    font-size: 22px;
-    position: relative;
-    top: 0rem;
-    color: black;
+  font-size: 20px;
+  position: relative;
+  top: 0rem;
+  color: white;
+  font-family: "Maitree", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.2rem;
 }
 
 .img-icons img {
-    width: 40rem;
-    height: 30rem;
-    border-radius: 12px;
+  width: 40rem;
+  height: 30rem;
+  border-radius: 12px;
 }
 
 .icons {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    left: 22.5%;
-    border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.555);
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-
-
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  left: 22.5%;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.555);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .icons img {
-    width: 5rem;
-    height: 5rem;
-    margin: 1rem;
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem;
+}
+.circle-1 {
+  width: 108rem;
+  height: 108rem;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
 }
 
-@media screen and (max-width:650px) {
-    .main_wrapper {
-        background-size: contain;
-        color: white;
-        height: 380px;
-    }
+@media screen and (max-width: 650px) {
+  .main_wrapper {
+    background-size: contain;
+    color: white;
+    height: 380px;
+  }
 
-    .main_wrapper h1,
-    .main_wrapper p {
-        color: black;
-    }
+  .main_wrapper h1,
+  .main_wrapper p {
+    color: black;
+  }
 
-    .main_wrapper h1 {
-        font-size: 30px;
-        margin-bottom: 1.5rem;
-    }
+  .main_wrapper h1 {
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+  }
 
-    .main_wrapper p {
-        font-size: 16px;
-    }
+  .main_wrapper p {
+    font-size: 16px;
+  }
 
-    .img-icons img {
-        width: 22.5rem;
-        height: 22rem;
-    }
+  .img-icons img {
+    width: 22.5rem;
+    height: 22rem;
+  }
 
-    .icons {
-        width: 90%;
-        left: 4%;
-        padding: .25rem;
-        top: -5rem;
-    }
+  .icons {
+    width: 90%;
+    left: 4%;
+    padding: 0.25rem;
+    top: -5rem;
+  }
 
-    .icons img {
-        width: 2rem;
-        height: 2rem;
-    }
+  .icons img {
+    width: 2rem;
+    height: 2rem;
+  }
 }

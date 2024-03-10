@@ -1,15 +1,32 @@
 .team_wrapper {
-    width: 100%;
-    color: white;
-    text-align: center;
-    margin-bottom: 2rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-bottom: 10rem;
+  margin-bottom: 2rem;
+  z-index: -5;
+}
+.team_wrapper h1 {
+  color: black;
+  letter-spacing: 0.2rem;
 }
 
+.team_wrapper h2 {
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 0.5rem;
+  padding: 1rem;
+  width: min(42rem, 90%);
+  margin: 3rem auto;
+}
+/* .team_wrapper h2:nth-child(1) {
+  color: black;
+} */
 .heads {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
 }

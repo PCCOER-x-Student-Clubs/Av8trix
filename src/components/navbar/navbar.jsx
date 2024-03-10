@@ -19,6 +19,7 @@ function Navbar({ aboutRef }) {
     <div className="nav_wrapper navbar">
       <div className="logo">
         <img src={smallLogo} alt="" srcset="" />
+        AV8TRIX
       </div>
       <div className={menustyle}>
         <ul>
