@@ -1,14 +1,12 @@
-
 import React, { useState } from "react";
 import "./nav.css";
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link, animateScroll as scroll } from "react-scroll";
 import smallLogo from "../../images/SmallLogo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-
-const sections = ['Home', 'About', 'Gallery', 'Sponsors', 'team']; 
+const sections = ["Home", "About", "Gallery", "Sponsors", "team"];
 function Navbar({ aboutRef }) {
-  const [activeLink, setActiveLink] = useState(''); // State for active navbar link
+  const [activeLink, setActiveLink] = useState(""); // State for active navbar link
 
   const handleNavLinkClick = (section) => {
     setActiveLink(section);
@@ -24,19 +22,22 @@ function Navbar({ aboutRef }) {
       </div>
       <div className={menustyle}>
         <ul>
-        {sections.map((section) => (
-          <li key={section} className={`nav-link ${activeLink === section ? 'active' : ''}`}>
-            <Link
-              to={section}
-              spy={true}
-              smooth={true}
-              offset={-50} // Adjust offset for navbar height if needed
-              onClick={() => handleNavLinkClick(section)}
+          {sections.map((section) => (
+            <li
+              key={section}
+              className={`nav-link ${activeLink === section ? "active" : ""}`}
             >
-              {section.charAt(0).toUpperCase() + section.slice(1)}
-            </Link>
-          </li>
-        ))}
+              <Link
+                to={section}
+                spy={true}
+                smooth={true}
+                offset={-50} // Adjust offset for navbar height if needed
+                onClick={() => handleNavLinkClick(section)}
+              >
+                {section.charAt(0).toUpperCase() + section.slice(1)}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
       <div

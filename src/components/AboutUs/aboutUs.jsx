@@ -12,11 +12,25 @@ function AboutUs() {
   return (
     <>
       <div className="aboutUs" id="About">
-        <h1 color="white">About Us</h1>
+        <h1 color="white">
+          <img
+            src="/plainicon.png"
+            alt=""
+            style={{
+              width: "50px",
+              display: "inline-block",
+              marginRight: "10px",
+              marginTop: "10px",
+            }}
+          />
+          About Us
+        </h1>
         <div className="about_container">
-          <div className="leftInfo">
+          <div className="leftInfo ">
+            <hr />
             <h3>Sky Story</h3>
-            <p>
+            <hr />
+            <p className="maitree-medium">
               It started as a group project of 3 mechanical engineers trying to
               build a model aircraft with an idea of flying it within a span of
               a month,but quickly realised how complex it is to achieve flight
@@ -28,20 +42,24 @@ function AboutUs() {
             </p>{" "}
           </div>
           <div className="RightImg">
-            <img src={img1} alt="" srcset="" />
+            <img src={img1} alt="" srcset="" className="img-1" />
           </div>
         </div>
         <div className="hiddenContainer">
           <div className="leftInfo">
+            <hr />
             <h3>Our Mission</h3>
-            <p>
+            <hr />
+            <p className="maitree-medium">
               At AV8TRIX we bring together aero-enthusiasts from diverse
               background for creating a dynamic, interdisciplinary space for
               pushing the boundaries of the flight.
             </p>
 
+            <hr style={{ marginTop: "3rem" }} />
             <h3>Vision</h3>
-            <p>
+            <hr />
+            <p className="maitree-medium">
               Facilitating young minds to collaborate on nurturing a passion for
               aviation that fosters continuous learning and hands-on exploration
               within this club.
@@ -52,7 +70,7 @@ function AboutUs() {
             </p>
           </div>
           <div className="RightImg">
-            <img src={img1} alt="" srcset="" />
+            <img src={img1} alt="" srcset="" className="img-2" />
           </div>
         </div>
 
