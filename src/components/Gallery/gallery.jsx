@@ -17,10 +17,14 @@ function gallery() {
         </h1>
         <div className="imgs">
           <div>
-            <img src={img1} alt="" />
+            <img src="/team_img.jpg" alt="" />
           </div>
           <div>
-            <img src={img2} alt="" />
+            <img
+              src="/gallery2.jpg"
+              alt=""
+              style={{ objectPosition: "50% 30%" }}
+            />
           </div>
           <div>
             <img src={img3} alt="" />
@@ -29,7 +33,7 @@ function gallery() {
             <img src={img4} alt="" />
           </div>
           <div>
-            <img src={img5} alt="" />
+            <img src={"/gallery3.jpg"} alt="" />
           </div>
           <div>
             <img src={teamMeeting} alt="" />
