@@ -30,3 +30,9 @@
   flex-direction: row;
   gap: 1rem;
 }
+@media screen and (max-width: 650px) {
+  .team_wrapper h1 {
+    color: white;
+    letter-spacing: 0.2rem;
+  }
+}

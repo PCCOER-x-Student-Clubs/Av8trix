@@ -1,5 +1,4 @@
 .sponsor_wrapper {
-  width: 99%;
   background-color: black;
   text-align: center;
   display: flex;
@@ -41,7 +40,7 @@
   align-content: center;
   gap: 3rem;
   flex-wrap: wrap;
-  width: 100vw;
+
   margin-bottom: 2rem;
 }
 
@@ -53,7 +52,7 @@
   align-content: center;
   gap: 3rem;
   flex-wrap: wrap;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .goldImg img {
@@ -84,5 +83,15 @@
   .goldsponsor h3,
   .softsponsor h3 {
     margin-left: 1rem;
+  }
+  .goldImg {
+    flex-direction: column;
+  }
+  .softImg {
+    flex-direction: column;
+  }
+  .team_wrapper h1 {
+    color: white;
+    letter-spacing: 0.2rem;
   }
 }
