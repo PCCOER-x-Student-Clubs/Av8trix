@@ -90,6 +90,9 @@ function ImageSlider() {
           </h1>
           <hr style={{ marginBottom: "3rem" }} />
         </div>
+        <br />
+        <br />
+
         <Slider {...settings}>
           {images.map((img, idx) => (
             <div
